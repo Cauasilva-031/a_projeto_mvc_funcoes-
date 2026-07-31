@@ -3,11 +3,11 @@
 
 <section>
     <div class="alert alert-danger">
-        <h2>Erro 404</h2>
+        <h2>404</h2>
 
         <p> A página solicitada não foi encontrada </p>
 
-        <img src="./assets/img/erro_404.png" width="400" height="400"> <br><br>
+        <img src="./assets/img/404.jpg" width="400" height="400"> <br>
 
         <a href="index.php?page=produtos" class="btn btn-primary">
             Voltar para produtos
