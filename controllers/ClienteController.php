@@ -15,13 +15,13 @@ if ($_SERVER["REQUEST_METHOD"] !== "POST") {
     exit;
 }
 
-// Recebe os dados enviados pelo formulário
+// Recebe dados enviados pelo formulário
 $nome = trim($_POST['nome']);
 $cpf = trim($_POST['cpf']);
 $email = trim($_POST['email']);
 $telefone = trim($_POST['telefone']);
 
-// Valida os campos obrigatórios 
+// Valida campos obrigatórios 
 if ($nome === "" || $cpf === "" || $email === "" || $telefone === "") {
     http_response_code(400);
 
