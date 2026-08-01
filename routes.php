@@ -10,7 +10,7 @@ $paginasValidas = [
 ];
 
 // Capturar a página informada na url 
-$page = $_GET["page"] ?? "produtos"; //prod. ou cli. ou func.
+$page = $_GET["page"] ?? "produtos"; 
 
 //Verificar se a página existe
 if (array_key_exists($page, $paginasValidas)) {
