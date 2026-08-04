@@ -27,7 +27,8 @@
 
                      <label for="categoria" class="form-label"> Categoria </label>
 
-                     <div class="input-group">                    
+                     <div class="input-group">
+                         <span class="input-group-text"> <i class="bi bi-tags"></i> </span>
                          <input type="text" id="categoria" name="categoria" class="form-control">
                          <div class="invalid-feedback"></div>
                      <div class="valid-feedback"></div>
@@ -39,9 +40,9 @@
                      <label for="preco"> Preço </label>
 
                      <div class="input-group">
-                         
+                         <span class="input-group-text">R$</span>
                          <input type="text" id="preco" name="preco" class="form-control">
-                         <!-- TODO: type text -->
+                         <!-- type text -->
                      </div>
 
                      <div class="invalid-feedback"></div>
@@ -49,12 +50,13 @@
 
                  </div>
 
+
                  <!-- Quantidade -->
                  <div class="mb-3">
                      <label for="number"> Quantidade </label>
 
                      <div class="input-group">
-                     
+                         <span class="input-group-text"> <i class="bi bi-emoji-smile-fill"></i> </span>
                          <input type="text" id="quantidade" name="quantidade" class="form-control">
                          <div class="invalid-feedback"></div>
                          <div class="valid-feedback"></div>
