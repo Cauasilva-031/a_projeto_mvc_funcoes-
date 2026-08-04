@@ -13,8 +13,9 @@
 
                      <label for="nome"> Nome </label>
 
-                     <!-- TODO: Coloquei todos input-group -->
+                     <!-- Coloquei todos input-group -->
                      <div class="input-group"> 
+                         <span class="input-group-text"> <i class="bi bi-box"></i> </span>
                          <input type="text" id="nome" name="nome" class="form-control">
                          <div class="invalid-feedback"></div>
                          <div class="valid-feedback"></div>
