@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] !== "POST") {
 }
 
 // Cria o objeto validador
-$validator = new Validator($_POST);
+$validator = new validator($_POST);
 
 //Executa a função que contém as regras de validação
 validarCadastro($validator);
