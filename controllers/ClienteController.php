@@ -9,19 +9,19 @@ if ($_SERVER["REQUEST_METHOD"] !== "POST") {
 
     echo json_encode([
         "sucesso" => false,
-        "mensagem" => "Método não permitido, esperava GET"
+        "mensagem" => "Método não permitido, esperava POST"
     ]);
 
     exit;
 }
 
-// Recebe dados enviados pelo formulário
+// Recebe os dados enviados pelo formulário
 $nome = trim($_POST['nome']);
 $cpf = trim($_POST['cpf']);
 $email = trim($_POST['email']);
 $telefone = trim($_POST['telefone']);
 
-// Valida campos obrigatórios 
+// Valida os campos obrigatórios 
 if ($nome === "" || $cpf === "" || $email === "" || $telefone === "") {
     http_response_code(400);
 
