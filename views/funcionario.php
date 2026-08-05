@@ -15,7 +15,7 @@
                 <label for="nome">Nome</label>
 
                 <div class="input-group">
-                    <span class="input-group-text"> <i class="bi bi-person"></i> </span>
+                    <span class="input-group-text"> <i class="bi bi-person-fill-add"></i> </span>
                     <input type="text" id="nome" name="nome" class="form-control">
 
                     <div class="invalid-feedback"></div>
@@ -30,7 +30,7 @@
                 <label for="cnpj">CNPJ</label>
 
                 <div class="input-group">
-                    <span class="input-group-text"> <i class="bi bi-building"></i> </span>
+                    <span class="input-group-text"> <i class="bi bi-bank"></i> </span>
                     <input type="text" id="cnpj" name="cnpj" class="form-control">
 
                     <div class="invalid-feedback"></div>
@@ -45,7 +45,7 @@
                 <label for="regFunc">Registro do Funcionário</label>
 
                 <div class="input-group">
-                    <span class="input-group-text"> <i class="bi bi-card-text"></i> </span>
+                    <span class="input-group-text"><i class="bi bi-journal"></i> </span>
                     <input type="text" id="regFunc" name="regFunc" class="form-control">
 
                     <div class="invalid-feedback"></div>
@@ -60,7 +60,7 @@
                 <label for="pis">PIS</label>
 
                 <div class="input-group">
-                    <span class="input-group-text"> <i class="bi bi-credit-card-2-front"></i> </span>
+                    <span class="input-group-text"> <i class="bi bi-window-plus"></i> </span>
                     <input type="text" id="pis" name="pis" class="form-control">
 
                     <div class="invalid-feedback"></div>
